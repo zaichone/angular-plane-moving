@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PlaneComponent } from './plane/plane.component';
+import { MarkAnimationComponent } from './mark-animation/mark-animation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PlaneComponent,
+    MarkAnimationComponent
   ],
   imports: [
     BrowserModule,
